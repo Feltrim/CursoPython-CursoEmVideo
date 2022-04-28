@@ -1,0 +1,18 @@
+print('Dissecando uma Variável\n')
+
+objeto = input('Digite algo: ')
+print('O tipo primitivo desse termo é: ', type(objeto))
+print('O termo que você digitou é alpha?', objeto.isalnum())
+print('O termo que você digitou é alnum?', objeto.isalpha())
+print('O termo que você digitou é ascii?', objeto.isascii())
+print('O termo que você digitou é digit?', objeto.isdigit())
+print('O termo que você digitou é lower?', objeto.islower())
+print('O termo que você digitou é decimal?', objeto.isdecimal())
+print('O termo que você digitou é identifier?', objeto.isidentifier())
+print('O termo que você digitou é numeric?', objeto.isnumeric())
+print('O termo que você digitou é printable?', objeto.isprintable())
+print('O termo que você digitou é space?', objeto.isspace())
+print('O termo que você digitou é title?', objeto.istitle())
+print('O termo que você digitou é upper?', objeto.isupper())
+
+objeto.isinteger()
